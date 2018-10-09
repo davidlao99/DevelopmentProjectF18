@@ -1,2 +1,3 @@
 # Ignore macOS filesystem files
 .DS_store
+.txt
