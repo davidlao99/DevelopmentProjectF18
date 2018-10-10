@@ -9,9 +9,7 @@ Finished: ~10/9/18
 '''
 
 # import
-import random
 import itertools
-import re
 import nltk
 
 
