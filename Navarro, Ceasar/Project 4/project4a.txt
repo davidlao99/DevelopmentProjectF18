@@ -1,0 +1,16 @@
+The whole point of Merge Sort is to sort large amounts of data with a small 
+amount of space. In this folder there is a folder of 8500 ints that are unsorted.
+
+Things to know:
+You only have the memory to process 500 ints at a time
+Disk Space is not an issue
+Ints in python during runtime are 24 bytes 
+
+Sort the file, using merge sort, with those in mind.
+
+*Hints*
+Load the equivalent of 4gb of ints into memory
+Sort them using merge sort
+Save them
+Repeat
+
