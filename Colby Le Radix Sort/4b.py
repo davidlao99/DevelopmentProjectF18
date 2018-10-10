@@ -3,11 +3,9 @@
 '''
 Project 4b
 
-Used With California Polytechnic University California, Pomona Cpp AI Development Project
 Author: Colby Le
-Project Manager: Christopher Leal
-Writing Date: 10/4/18
-Finished: ~10/4/18
+Writing Date: 10/9/18
+Finished: ~10/9/18
 '''
 
 # import
