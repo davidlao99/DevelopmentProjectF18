@@ -2,74 +2,74 @@
 	"1520": {
 		"department": "phy",
 		"weekdays": ["tuesday", "thursday"],
-		"start": "10:45",
-		"end": "12:00"
+		"start": 10.45,
+		"end": 12.00
 	},
 	"1520L": {
 		"department": "phy",
 		"weekdays": ["thursday"],
-		"start": "19:00",
-		"end": "21:50"
+		"start": 19.00,
+		"end": 21.50
 	},
 	"1565A": {
 		"department": "kin",
 		"weekdays": ["monday", "wednesday"],
-		"start": "13:00",
-		"end": "13:50"
+		"start": 13.00,
+		"end": 13.50
 	},
 	"2250": {
 		"department": "mat",
 		"weekdays": ["monday", "wednesday", "friday"],
-		"start": "7:00",
-		"end": "8:05"
+		"start": 7.00,
+		"end": 8.05
 	},
 	"2260": {
 		"department": "sta",
 		"weekdays": ["monday", "wednesday"],
-		"start": "13:00",
-		"end": "14:15"
+		"start": 13.00,
+		"end": 14.15
 	},
 	"2331": {
 		"department": "me",
 		"weekdays": ["monday"], 
-		"start": "10:00",
-		"end": "11:50"
+		"start": 10.00,
+		"end": 11.50
 	},
 	"2331L": {
 		"department": "me",
 		"weekdays": ["monday"], 
-		"start": "12:00",
-		"end": "14:50"
+		"start": 12.00,
+		"end": 14.50
 	},
 	"2640": {
 		"department": "CS",
 		"weekdays": ["monday", "wednesday", "friday"],
-		"start": "11:00",
-		"end": "12:00"
+		"start": 11.00,
+		"end": 12.00
 	},
 	"2990": {
 		"department": "me",
 		"weekdays": ["tuesday", "thursday"], 
-		"start": "15:00",
-		"end": "15:50"
+		"start": 15.00,
+		"end": 15.50
 	},
 	"3011": {
 		"department": "me",
 		"weekdays": ["tuesday", "thursday"], 
-		"start": "8:30",
-		"end": "9:45"
+		"start": 8.30,
+		"end": 9.45
 	},
 	"3111": {
 		"department": "me",
 		"weekdays": ["tuesday", "thursday"], 
-		"start": "10:00",
-		"end": "11:15"
+		"start": 10.00,
+		"end": 11.15
 	},
 	"3500": {
 		"department": "gsc",
 		"weekdays": ["tuesday", "thursday"],
-		"start": "13:00",
-		"end": "14:15"
+		"start": 13.00,
+		"end": 14.15
 	},
 	"4010": {
 		"department": "ag",
@@ -80,31 +80,31 @@
 	"4310": {
 		"department": "cs",
 		"weekdays": ["monday", "wednesday"],
-		"start": "16:00",
-		"end": "17:15"
+		"start": 16.00,
+		"end": 17.15
 	},
 	"4350": {
 		"department": "cs",
 		"weekdays": ["monday", "wednesday"],
-		"start": "17:30",
-		"end": "18:30"
+		"start": 17.30,
+		"end": 18.30
 	},
 	"4800": {
 		"department": "cs",
 		"weekdays": ["tuesday", "thursday"],
-		"start": "13:00",
-		"end": "14:15"
+		"start": 13.00,
+		"end": 14.15
 	},
 	"4990": {
 		"department": "cs",
 		"weekdays": ["monday", "wednesday"],
-		"start": "19:00",
-		"end": "20:15"
+		"start": 19.00,
+		"end": 20.15
 	},
 	"5731": {
 		"department": "me",
 		"weekdays": ["tuesday", "thursday"], 
-		"start": "19:00",
-		"end": "20:15"
+		"start": 19.00,
+		"end": 20.15
 	}
 }
