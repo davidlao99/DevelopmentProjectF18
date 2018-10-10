@@ -1,13 +1,18 @@
 from GroupMember import GroupMember
 from Class import Class
 class Group_2:
+    dataStructures = Class("CS", "2400", "T/Th", 5.00, 6.45)
+    MarlonSchedule = [dataStructures]
+    Marlon = GroupMember("Marlon", "Computer Science", MarlonSchedule)
 
+    #Add Names
+    memberslist = [Marlon]
 
-    Class_Marlon = Class("CS", "2400", 5.00, 6.00)
-    GroupMember_Marlon = GroupMember("Marlon", "Computer Science", Class_Marlon.print_class_info())
-    Group_2_Marlon = GroupMember_Marlon.print_schedule()
+    def __init__(self, members):
+        self.memberlist = members
 
-    memberslist = [Group_2_Marlon]
+    def print_members(self):
+        print(self.memberlist)
 
-    for m in memberslist:
-        print(m)
+    for GroupMember in memberslist:
+        GroupMember.print_schedule()

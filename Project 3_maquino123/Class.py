@@ -1,16 +1,18 @@
 class Class:
 
-    def __init__(self, department, classNumber, startTime, endTime):
+    def __init__(self, department, classNumber, day, startTime, endTime):
         self.department = department
         self.classNumber = classNumber
-        self.startTime = str(startTime)
-        self.endTime = str(endTime)
+        self.day = day
+        self.startTime = startTime
+        self.endTime = endTime
 
 
     #We could probably format the time to make it look like an actual time
     def print_class_info(self):
-        return str("\nDepartment: " + self.department + "\nClass Number: " + self.classNumber + "\nStart Time: " + self.startTime + "\nEnd Time: " + self.endTime)
+        print("Department: " + str(self.department) + "\nClass Number: " + str(self.classNumber) + "\nDay: " + str(self.day) + "\nStart Time: " + str(self.startTime) + "\nEnd Time: " + str(self.endTime))
 
-
+dataStructures = Class("CS", "2400", "T/Th", 5.00, 6.45)
+MarlonSchedule = dataStructures
 
 

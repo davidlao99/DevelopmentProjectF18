@@ -7,4 +7,9 @@ class GroupMember(Class):
         self.classSchedule = classSchedule
 
     def print_schedule(self):
-        return str("Name: " + self.name + "\nMajor: " + self.major + "\n*** Class Schedule ***" + self.classSchedule)
+        print("Name: " + str(self.name) + "\nMajor: " + str(self.major))
+        print("*** Class Schedule ***")
+        c = 0
+        for c in range(len(self.classSchedule)):
+            self.classSchedule[c].print_class_info()
+
