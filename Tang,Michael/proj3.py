@@ -1,3 +1,8 @@
+#Name: Michael Tang
+#Project #3
+# Description: Make a program to input your groups and check their
+#schedules. Create multiple classes to practice on object oriented skills.
+
 class Group_16:
 
     def __init__(self, members):
