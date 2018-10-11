@@ -4,6 +4,8 @@ def loadWords(txtfile):
     with open(txtfile, 'r', encoding='utf-8', errors='ignore') as txt:
         # Read the file as a string, converts to lowercase, and then splits it by words
         x = txt.read().lower().split()
+        # Removes trailing comas and periods
+        x = [word.rstrip('.,') for word in x]
         return x
 
 
