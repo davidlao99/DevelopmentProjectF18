@@ -1,37 +1,44 @@
-class Group_16():
+#Name: Michael Tang
+#Project #3
+# Description: Make a program to input your groups and check their
+#schedules. Create multiple classes to practice on object oriented skills.
 
-    def __init__(self, names, major):
+class Group_16:
 
-        self.time = ""
-        self.day = ""
-        self.names = ""
-        self.major = ""
-
-    def meet_up(self, time, day):
-
-        available = false
-        
-        print(available)
-
+    def __init__(self, members):
+        self.members = members
+ 
     def print_member_info(self):
+        for member in self.members
+        member.print_schedule()
 
-        print(self.names + self.major)
+class GroupMember:
 
-class GroupMember(self, name, major, classSchedule[]):
+    def __init__(self, name, major, classSchedule):
 
-    classSchedule[Class] = self.classSchedule[] 
+        self.classSchedule = classSchedule
+        self.name = name
+        self.major = major
+        
+    def print_schedule(self):
 
-    def print_schedule:
-        print(self.names + self.major + classSchedule[Class])
+        i=1
+
+        for startTime in self.classSchedule:
+            print(self.major + " " + str(i))
+            startTime.print_class_info()
+            i += 1
+            
+class Class:
     
-
-class Class(self, department, classNumber, startTime, endTime):
-
-    self.department = department
-    self.classNumber = classNumber
-    self.startTime = startTime
-    self.endTime = endTime
+    def __init__(self, department, day, classNumber, startTime, endTime):
+        self.department = department
+        self.day = day
+        self.classNumber = classNumber
+        self.startTime = startTime
+        self.endTime = endTime
 
     def print_class_info(self):
-        print("Department: " + department + "\n ClassNumber: " + classNumber +
-              "\n StartTime: "  + startTime + "\n EndTime: " + endTime)
+        print("Department: " + self.department + "\nClassNumber: " + str(self.classNumber) +
+              "\nStartTime: "  + self.startTime + "\nEndTime: " + self.endTime)
+
