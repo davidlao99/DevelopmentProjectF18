@@ -30,8 +30,8 @@ class TeamMember(Class):
         i = 0
         for i in range (len(member.schedule)):
             member.schedule[c].print_class_info()
-
-class GroupNumber:
+#main class to print information
+class main:
     ProgLang = Class("CS", "4080", "MWF", 12:00, 12:50)
     Jschedule = [ProgLang]
     member2 = Class("CS", "3650", "TT", 1:00, 2:00)
