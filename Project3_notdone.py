@@ -1,12 +1,13 @@
-class group_Number():
-    def __init__(self,groupnumber, day, time):
-        self.groupnumber = groupnumber
+class group_5():
+    def __init__(self,groupmembers):
+        self.groupmembers = groupmembers
+
+    def meet_up(self, day, time):
         self.day = day
         self.time = time
-    def meet_up(self, day, time):
-
+		
     def print_members(self):
-        print(str(self.groupnumber) + "Group members: " + )
+        print(self.groupmembers)
 
 class groupMember():
     def __init__(self, name, major, classSchdule):
@@ -21,11 +22,9 @@ class Class():
         self.startTime = startTime
         self.endTime = endTime
         self.meetingDays = meetingDays
+		
     def print_class_info(self):
-        print(self.department + " " + str(self.classNumber) + " "  + str(self.startTime) + " " + str(self.endTime) + " " + self.meetingDays)
+        print(self.department + " " + str(self.classNumber) + " "  + str(self.startTime) + " to " + str(self.endTime) + " " + self.meetingDays)
 
 
-
-c1 = Class("ECE", 1000, 1.00, 2.30, "Monday Wednesday")
-c1.print_class_info()
 
