@@ -6,7 +6,16 @@ class Group_16:
         self.members = members
 
     def meet_up(self, day, time):
-        pass
+        for member in self.members:
+            for x in member.classSchedule:
+                if day.lower() in x.weekdays:
+                    if (x.startTime <= time < x.endTime):
+                        # Notice that the code will only report on the first
+                        # person that can't make it.
+                        print(f'{member.name} has class at that time')
+                        return
+        else:
+            print('This is a good time.')
 
     def print_members(self):
         pass
@@ -78,3 +87,13 @@ def loadClass(entry):
 
 if __name__ == '__main__':
     data = loadMembers()
+
+    # Test it with a time
+    # This will fail
+    data.meet_up('Monday', 12.00)
+
+    # This will fail
+    data.meet_up('Monday', 8.00)
+
+    # This will I don't know
+    data.meet_up('Tuesday', 12.00)
