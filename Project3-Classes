@@ -1,0 +1,27 @@
+class Group12:
+    def __init__(self, groupMembers):
+        self.groupMembers = []
+
+    def meet_up(self, day, time):
+        if(self.classSchedule[] == day && self.classSchedule[] == time):
+            return true
+		        print(self)
+	       else:
+		        return false
+
+class GroupMember:
+    def __init__(self, name, major, schedule):
+        self.name = name
+        self.major = major
+        self.classSchedule = []
+
+    	  print_schedule(self):
+
+
+class Class:
+    def __init__(self, department, classNum, startTime,finishTime):
+        self.department = department
+        self.major = classNum
+        self.startTime = startTime
+        self.finishTime = finishTime
+    	  print_class_info(self):
