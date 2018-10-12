@@ -1,2 +1,3 @@
 Name,Best Contact,Discord Username(# included)
 Lam Lieu, lslieu@cpp.edu, Born#7828
+David Lao, ddlao@cpp.edu, evilSoul#5767
